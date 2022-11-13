@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BAIRES-TRIPS</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h2>BAIRES-TRIPS</h2>
+        </header>
+        <div class="formulario">
+            <form id="vacacionesCalc">
+                <input type="text" placeholder="Destino" id="destino" required />
+                <input type="number" placeholder="Ahorro" id="ahorro" required />
+                <input type="number" placeholder="Hoteleria" id="hoteleria" required/>
+                <input type="number" placeholder="Transporte " id="transporte" required />
+                <input type="number" placeholder="Comida" id="comida" required />
+                <input type="submit" value="Calcular" class="boton"/>
+            </form>
+        </div>
+        <div>
+            <div class="icons">
+                <div class="imagenes">
+                    <h4>DESTINO</h4>
+                    <img src="./assets/avion.png" alt="avion">
+                </div>
+                <div class="imagenes">
+                    <h4>AHORRO</h4>
+                    <img src="./assets/billetera.png" alt="billetera">
+                </div>
+                <div class="imagenes">
+                    <h4>BALANCE</h4>
+                    <img src="./assets/billete.jpg" alt="billete">
+                </div>
+            </div>
+            <div class="data">
+            <div class="resultado" id="resultado"></div>
+            </div>
+        </div>
+    <script src="js/scripts.js"></script>
+    </body>
+</html>
